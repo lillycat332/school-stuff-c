@@ -13,15 +13,17 @@ int main(int argc, char **argv)
 {
 	long n;
 	char *temp;
-	if (argc > 2) {
-    	printf("Too many arguments\n");
+	if (argc < 2) {
+    	printf("too many arguments\n");
     	return 1;
 	}
 
 	n = strtol(argv[1], &temp, 10);
 	if (*temp != '\0') {
-		printf("Invalid input\n"); return 1;
+		printf("Invalid input, bailing out.."); return 0;
 	}
+
+	printf("%ld",n);
 	decimalBinary(n);
 	printf("\n");
 	return 0;
