@@ -1,13 +1,21 @@
 /Volumes/cs/Programming/C/school-stuff-c
 /mnt/font/GoMono/15a/font
 /nix/store/d2zsxhlwhzx0y9cnmmdhppkqmq0xsrdi-plan9port-2021-10-19/plan9/font/lucm/unicode.9.font
-  0.0000000  60.0000000
-w Newcol Kill Putall Dump Exit Dump acme.dump
+  0.0000000  59.9101796
+w win Newcol Kill Putall Dump Exit Dump acme.dump
 c          0 New Cut Paste Snarf Sort Zerox Delcol 
 c          1 New Cut Paste Snarf Sort Zerox Delcol 
-f          1           1           0           0   2.9885057 
-          1          63           0           1           0 /Volumes/cs/Programming/C/school-stuff-c/ Del Snarf Get | Look 
-F          1           1          39          57   8.7356322          57 
-          2          25          57           0           0 +Errors Del Snarf | Look 
-./acme.dump: No such file or directory
-acme.dump: exit 1
+f          0           3          58          58   2.1654636 
+          3          89         332           0           0 /Volumes/cs/Programming/C/school-stuff-c/decimal-binary.c Del Snarf Undo | Look Indent ON
+f          0           6         749         871   4.3309273 
+          6          84        1126           0           0 /Volumes/cs/Programming/C/school-stuff-c/binary-decimal.c Del Snarf Undo Redo | Look
+f          0           8           0         340   6.4963909 
+          8          75         340           0           0 /Volumes/cs/Programming/C/school-stuff-c/factorial.c Del Snarf Undo | Look 
+f          1           1          28          28   2.1654636 
+          1          72          28           1           1 /Volumes/cs/Programming/C/school-stuff-c/ Del Snarf Get | Look win rc -l
+e          1           0           0           0   4.3309273 
+          2          70      179872           0           1 /Volumes/cs/Programming/C/school-stuff-c/-mirai Del Snarf | Look  Send
+/Volumes/cs/Programming/C/school-stuff-c/
+win rc -l
+f          1          10         146         146  50.5274847 
+         10          75         362           0           0 /Volumes/cs/Programming/C/school-stuff-c/fibonacci.c Del Snarf Undo | Look 
